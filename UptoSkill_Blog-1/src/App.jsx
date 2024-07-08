@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Login from './Components/Login/Login';
 import Blog from './Components/CreateBlog/Blog';
-// import BlogPage from './Components/CreateBlog/BlogPage';
 import BlogContent from './Components/CreateBlog/BlogPage';
 
 
@@ -17,7 +16,6 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/CreateBlog" element={<Blog />} />
-          {/* <Route path="/BlogPage" element={<BlogPage/>}/> */}
           <Route path="/BlogPage/:id" element={<BlogContent />} />
 
           {/* Add other routes as needed */}
